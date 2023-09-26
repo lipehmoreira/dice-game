@@ -18,7 +18,7 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #4ECCA3;
 }
 
@@ -43,4 +43,27 @@ footer {
 a {
   text-decoration: none; 
   color: white;
+}
+
+button {
+  background-color: #393E46; /* Green */
+  border: none;
+  font-size: 5rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 2px 0 #232931;;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid #4ECCA3;
+}
+
+button:hover {
+  background-color: #4ECCA3;
+  color: black;
 }
